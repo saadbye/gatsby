@@ -52,7 +52,7 @@ function Index() {
       <br />
       <h2>The date according to Node.js (TypeScript) is:</h2>
       <h2>{date ? date : 'Loading date...'}</h2>
-      <h2>{datedst ? datedst} : 'Loading dst...'</h2>
+      <h2>{datedst ? datedst : 'Loading dst...'}</h2>
     </main>
   );
 }
