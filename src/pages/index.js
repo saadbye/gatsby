@@ -44,7 +44,7 @@ function Index() {
         <a href="/api/date">
           <code>api/date</code> for the Date API with Node.js (TypeScript)
         <a href="/api/datedst">
-          <code>api/datedst</code>
+          <code>api/datedst</code> for the daylightsaving
         </a>
         .
       </p>
