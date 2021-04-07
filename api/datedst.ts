@@ -2,6 +2,6 @@ import { VercelRequest, VercelResponse } from '@vercel/node';
 
 export default (_req: VercelRequest, res: VercelResponse) => {
   const date = new Date().toString();
-  const offset = date.getTimezoneOffset();
+  const offset = new Date().getTimezoneOffset();
   res.status(200).send(date, offset);
 };
