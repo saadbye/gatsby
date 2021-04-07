@@ -45,13 +45,14 @@ function Index() {
           <code>api/date</code> for the Date API with Node.js (TypeScript) 
         <a href="/api/datedst">
           <code>api/datedst</code> for the daylightsaving
+  
         </a>
         .
       </p>
       <br />
       <h2>The date according to Node.js (TypeScript) is:</h2>
       <h2>{date ? date : 'Loading date...'}</h2>
-      <h2>{datedst ? offset}</h2>
+      <h2>{datedst ? datedst}</h2>
     </main>
   );
 }
