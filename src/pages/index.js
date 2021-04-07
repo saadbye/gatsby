@@ -43,13 +43,15 @@ function Index() {
         <a href="https://nodejs.org/en/">Node.js (TypeScript)</a> function. See{' '}
         <a href="/api/date">
           <code>api/date</code> for the Date API with Node.js (TypeScript)
+        <a href="/api/datedst>
+          <code>api/datedst</code>
         </a>
         .
       </p>
       <br />
       <h2>The date according to Node.js (TypeScript) is:</h2>
       <h2>{date ? date : 'Loading date...'}</h2>
-      <h2>{offset}</h2>
+      <h2>{datedst ? offset}</h2>
     </main>
   );
 }
